@@ -8,5 +8,8 @@ public class App {
         if (usuario.equals("admin")) {
             System.out.println("¡Bienvenido administrador!");
         }
+        if (contraseña.equals("123456")) {
+            System.out.println("<UNK>Bienvenido administrador!");
+        }
     }
 }
